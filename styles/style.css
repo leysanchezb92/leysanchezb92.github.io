@@ -1,0 +1,13 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+}
+
+.bcPicture {
+  min-width: 100%;
+  min-height: 100%;
+  background: url(../assets/thomas-serer-r-xKieMqL34-unsplash.jpg);
+  background-size: cover;
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
