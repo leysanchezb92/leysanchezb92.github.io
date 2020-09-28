@@ -4,10 +4,21 @@ body {
 }
 
 .bcPicture {
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   background: url(../assets/thomas-serer-r-xKieMqL34-unsplash.jpg);
   background-size: cover;
-  z-index: 1;
+}
+
+.bcPicture .pic {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.bcPicture .pic img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
