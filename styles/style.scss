@@ -1,20 +1,29 @@
 body{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Patrick Hand', cursive;
     margin: 0;
 }
 .bcPicture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-width: 100vw;
     min-height: 100vh;
     background: url(../assets/thomas-serer-r-xKieMqL34-unsplash.jpg);
     background-size: cover;
-    .pic{
-        height: 150px;
-        width: 150px;
-        overflow: hidden;
-        border: 5px solid white;
-        border-radius: 50%;
-        img{
-            width: 100%;
+    color:white;
+    section{
+        h2{
+            text-align: center;
+        }
+        .pic{
+            height: 150px;
+            width: 150px;
+            overflow: hidden;
+            border: 5px solid white;
+            border-radius: 50%;
+            img{
+                width: 100%;
+            }
         }
     }
 }
