@@ -1,3 +1,9 @@
+//colors
+$white: #faedcb;
+$black:rgba(0,0,0,.4);
+
+
+
 body{
     font-family: 'Patrick Hand', cursive;
     margin: 0;
@@ -8,9 +14,9 @@ body{
     align-items: center;
     min-width: 100vw;
     min-height: 100vh;
-    background: url(../assets/thomas-serer-r-xKieMqL34-unsplash.jpg);
+    background: url(../assets/jorge-gardner-Exjq06SLhl4-unsplash.jpg);
     background-size: cover;
-    color:white;
+    color:$white;
     &::before{
         content:'';
         width: 100%;
@@ -18,7 +24,7 @@ body{
         position: absolute;
         top: 0;
         left: 0;
-        background-color: rgba(0,0,0,.4);
+        background-color: $black;
         z-index: 0;
     }
     section{
@@ -31,7 +37,7 @@ body{
             height: 150px;
             width: 150px;
             overflow: hidden;
-            border: 5px solid white;
+            border: 5px solid $white;
             border-radius: 50%;
             margin: 0 auto;
             img{

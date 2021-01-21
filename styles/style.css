@@ -9,9 +9,9 @@ body {
   align-items: center;
   min-width: 100vw;
   min-height: 100vh;
-  background: url(../assets/thomas-serer-r-xKieMqL34-unsplash.jpg);
+  background: url(../assets/jorge-gardner-Exjq06SLhl4-unsplash.jpg);
   background-size: cover;
-  color: white;
+  color: #faedcb;
 }
 
 .bcPicture::before {
@@ -38,7 +38,7 @@ body {
   height: 150px;
   width: 150px;
   overflow: hidden;
-  border: 5px solid white;
+  border: 5px solid #faedcb;
   border-radius: 50%;
   margin: 0 auto;
 }
